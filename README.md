@@ -25,7 +25,7 @@ You need to enable "App Passwords" on your Google account to be able to send ema
 - Generate an App Password for "Mail"
 - Save this password for later
 
-### **2- Update the code (`send_emails.py`):**
+### **2- Update the code** (`send_emails.py`)
     file_path = "path_to_the_file/name_of_the_file.xlsx" 
     EMAIL_SENDER = "your.email@gmail.com"  # Replace with your email
     EMAIL_PASSWORD = "your_app_password"  # Replace with your generated app password
