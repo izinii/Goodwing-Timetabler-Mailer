@@ -7,7 +7,7 @@ from openpyxl import load_workbook
 
 
 # Load the original Excel file
-file_path = "C:/Users/zinii/PI2_Project/envoyer_mails/output.xlsx"
+file_path = "path_to_the_file/name_of_the_file.xlsx" # Replace with the path to your Excel file
 xls = pd.ExcelFile(file_path)
 
 # Find all professor sheets
