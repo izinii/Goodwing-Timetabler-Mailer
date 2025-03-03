@@ -15,8 +15,17 @@ This functionality can be seen as a **plugin** for the **Goodwing-Timetabler** p
 ---
 
 ## To run the code
+Please know that for now, **Google service** is used. This means that you can **ONLY** send emails from a **Google account**. 
+It can be changed later to Outlook service. 
 
 ### **1- Set up your email credentials**
-```bash
-git clone https://github.com/your-username/Goodwing-Timetabler-Mailer.git
-cd Goodwing-Timetabler-Mailer
+You need to enable "App Passwords" on your Google account to be able to send emails automatically: 
+- Go to Google Security
+- Enable "2-Step Verification"
+- Generate an App Password for "Mail"
+- Save this password for later
+
+### **2- Update the code (`send_emails.py`):**
+file_path = "path_to_the_file/name_of_the_file.xlsx" 
+EMAIL_SENDER = "your.email@gmail.com"  # Replace with your email
+EMAIL_PASSWORD = "your_app_password"  # Replace with your generated app password
